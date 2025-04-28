@@ -24,6 +24,7 @@ Flutter plugin for ijkplayer
   # s.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '"$(PODS_ROOT)/Frameworks/"' }
 
   s.libraries = "bz2", "z", "stdc++"
+  s.swift_version = '5.0'
   s.dependency 'Flutter'
 
   # s.use_frameworks!
